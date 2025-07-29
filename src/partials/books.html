@@ -1,0 +1,40 @@
+<section class="books-section" id="books-section">
+  <div class="container books-container">
+    <h2 class="visually-hidden">Trending books</h2>
+    <div class="books-nav">
+      <div class="books-nav-title-box">
+        <h3 class="books-nav-title">Books</h3>
+        <p class="books-nav-counter"></p>
+      </div>
+
+      <!-- ===========  dropdown ===========-->
+      <div class="books-nav-dropdown">
+        <button class="books-dropdown-toggle">
+          Categories
+          <svg class="books-dropdown-arrow" width="24" height="24">
+            <use href="/img/sprite.svg#icon-chevron-down"></use>
+          </svg>
+        </button>
+        <ul class="books-dropdown-menu is-hidden">
+          <li class="books-dropdown-menu-item render-top-btn">
+            <a href="#">All categories</a>
+          </li>
+        </ul>
+      </div>
+      <!-- ===========  /dropdown ===========-->
+
+      <ul class="books-nav-category">
+        <li class="books-nav-category-item render-top-btn">
+          <a href="#">All categories</a>
+        </li>
+      </ul>
+    </div>
+    <div class="books-gallery">
+      <ul class="books-gallery-list"></ul>
+      <button class="books-gallery-btn is-hidden" type="button">
+        Show More
+      </button>
+      <span class="loader is-hidden"></span>
+    </div>
+  </div>
+</section>

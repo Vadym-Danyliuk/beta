@@ -1,0 +1,134 @@
+<div class="bm-container">
+  <!-- Модальне вікно -->
+  <div class="bm-overlay" id="modalOverlay">
+    <div class="bm-window">
+      <div class="bm-header">
+        <button class="bm-close" id="closeModalBtn">
+          <svg class="bm-icon bm-icon-close" width="32" height="32">
+            <use href="/img/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="bm-content">
+        <div class="bm-image-column">
+          <img class="bm-cover" src="" alt="" id="" />
+        </div>
+
+        <div class="bm-details">
+          <h2 class="bm-title" id="bookTitle">I will find you</h2>
+          <p class="bm-author" id="bookAuthor">Harlan Coben</p>
+          <p class="bm-price" id="bookPrice">$15</p>
+
+          <form class="bm-form" id="bookForm">
+            <div class="bm-quantity-container">
+              <button type="button" class="bm-quantity-btn" id="decreaseBtn">
+                <svg class="bm-icon bm-icon-minus" width="20" height="20">
+                  <use href="/img/sprite.svg#icon-minus"></use>
+                </svg>
+              </button>
+              <input
+                type="number"
+                class="bm-quantity-input"
+                id="quantity"
+                value="1"
+                min="1"
+              />
+              <button type="button" class="bm-quantity-btn" id="increaseBtn">
+                <svg class="bm-icon bm-icon-plus" width="20" height="20">
+                  <use href="/img/sprite.svg#icon-plus"></use>
+                </svg>
+              </button>
+            </div>
+
+            <button type="button" class="bm-add-to-cart" id="addToCartBtn">
+              Add To Cart
+            </button>
+            <button type="button" class="bm-buy-now" id="buyNowBtn">
+              Buy Now
+            </button>
+          </form>
+
+          <div class="bm-accordion">
+            <div class="bm-accordion-item">
+              <button class="bm-accordion-header" data-target="details">
+                Details
+                <svg
+                  class="bm-chevron-icon bm-chevron-down"
+                  width="24"
+                  height="24"
+                >
+                  <use href="/img/sprite.svg#icon-chevron-down"></use>
+                </svg>
+                <svg
+                  class="bm-chevron-icon bm-chevron-up"
+                  width="24"
+                  height="24"
+                >
+                  <use href="/img/sprite.svg#icon-chevron-up"></use>
+                </svg>
+              </button>
+              <div class="bm-accordion-content" id="details">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Veritatis non obcaecati, quam iure blanditiis fuga dicta
+                voluptates ab ipsum consectetur sunt a. Fuga, tempora sint illum
+                impedit pariatur aliquam perferendis.
+              </div>
+            </div>
+
+            <div class="bm-accordion-item">
+              <button class="bm-accordion-header" data-target="shipping">
+                Shipping
+                <svg
+                  class="bm-chevron-icon bm-chevron-down"
+                  width="24"
+                  height="24"
+                >
+                  <use href="/img/sprite.svg#icon-chevron-down"></use>
+                </svg>
+                <svg
+                  class="bm-chevron-icon bm-chevron-up"
+                  width="24"
+                  height="24"
+                >
+                  <use href="/img/sprite.svg#icon-chevron-up"></use>
+                </svg>
+              </button>
+              <div class="bm-accordion-content" id="shipping">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium dolor nostrum quas delectus tempora, omnis sequi unde
+                accusamus quae laborum quo veritatis. Voluptates odit
+                necessitatibus reprehenderit dolore. Ipsa, consectetur cum!
+              </div>
+            </div>
+
+            <div class="bm-accordion-item">
+              <button class="bm-accordion-header" data-target="returns">
+                Returns
+                <svg
+                  class="bm-chevron-icon bm-chevron-down"
+                  width="24"
+                  height="24"
+                >
+                  <use href="/img/sprite.svg#icon-chevron-down"></use>
+                </svg>
+                <svg
+                  class="bm-chevron-icon bm-chevron-up"
+                  width="24"
+                  height="24"
+                >
+                  <use href="/img/sprite.svg#icon-chevron-up"></use>
+                </svg>
+              </button>
+              <div class="bm-accordion-content" id="returns">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque
+                rerum adipisci modi delectus. Molestias vitae consectetur qui
+                labore nesciunt illo dolor a, repudiandae hic eos quibusdam iste
+                doloremque aliquid beatae?
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

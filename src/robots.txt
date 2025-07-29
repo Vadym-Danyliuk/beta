@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+
+Allow: /css/
+Allow: /js/
+Allow: /img/
+Allow: /fonts/
+
+
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /node_modules/
+Disallow: /*.md$
+Disallow: /package.json
+Disallow: /package-lock.json
+Disallow: /.gitignore
+
+# Sitemap (замініть на ваш GitHub Pages домен)
+Sitemap: https://yourusername.github.io/repository-name/sitemap.xml
+
+Crawl-delay: 1
